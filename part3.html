@@ -18,6 +18,30 @@
   <main>
     <h1>Part 3: Events and Calculator</h1>
     <p>Tasks 5–7 practice mouse events, keyboard events, and arithmetic.</p>
+    <section>
+      <h2>Task 5: Mouse events</h2>
+      <div id="hover-box" class="demo-box">Move your mouse over this box, then move it away.</div>
+    </section>
+    <section>
+      <h2>Task 6: Keyboard events</h2>
+      <label for="live-input">Type some text</label>
+      <input id="live-input" type="text">
+      <p>Current value: <span id="live-output" aria-live="polite"></span></p>
+    </section>
+    <section>
+      <h2>Task 7: Calculator</h2>
+      <label for="first-number">First number</label>
+      <input id="first-number" type="number" step="any">
+      <label for="second-number">Second number</label>
+      <input id="second-number" type="number" step="any">
+      <div class="buttons">
+        <button id="add-numbers" type="button">Addition</button>
+        <button id="subtract-numbers" type="button">Subtraction</button>
+        <button id="multiply-numbers" type="button">Multiplication</button>
+        <button id="divide-numbers" type="button">Division</button>
+      </div>
+      <p id="calculator-result" class="result" role="status">Enter two numbers and choose an operation.</p>
+    </section>
   </main>
 </body>
 </html>
