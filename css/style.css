@@ -97,3 +97,29 @@ input[type="text"], input[type="number"] {
 .result {
   min-height: 1.6em;
 }
+
+#task-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.task-item label {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+}
+
+.task-item input {
+  margin-right: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+}

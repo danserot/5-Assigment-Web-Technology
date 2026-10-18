@@ -18,6 +18,18 @@
   <main>
     <h1>Part 4: Interactive To-Do List</h1>
     <p>Task 8 practices storing tasks in an array and displaying them in the DOM.</p>
+    <section>
+      <h2>Task 8: My tasks</h2>
+      <form id="task-form">
+        <label for="task-input">New task</label>
+        <input id="task-input" type="text" aria-describedby="task-message">
+        <button type="submit">Add Task</button>
+      </form>
+      <p id="task-message" class="result" role="status"></p>
+      <p id="empty-message">No tasks yet. Add your first task.</p>
+      <ul id="task-list"></ul>
+      <p>Use a checkbox to mark a task as completed. Tasks are cleared when you reload this page.</p>
+    </section>
   </main>
 </body>
 </html>
